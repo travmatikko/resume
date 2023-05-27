@@ -1,9 +1,17 @@
-{{#with data}}
 <div>
     {{#if big}}
-    <h2>{{title}}</h2>
+    <h2 class="mb-5">{{data}}</h2>
     {{else}}
-    <h3>{{title}}</h3>
+    <h3 class="mb-3">{{data}}</h3>
     {{/if}}
 </div>
-{{/with}}
+
+<style>
+    h2 {
+        color: blue;
+    }
+
+    h3 {
+        color: blue;
+    }
+</style>
